@@ -72,7 +72,7 @@
                     sessionData = snapshot.val();
                     renderCheckout();
                 } else {
-                    window.location.href = 'customer-login.html';
+                    window.location.href = 'https://sakshiflavor.github.io/LOGIN/';
                 }
             });
         }
