@@ -235,14 +235,14 @@
 
             localStorage.removeItem(cartKey);
             alert('Order placed successfully!');
-            window.location.href = 'menu.html';
+            window.location.href = 'https://github.com/sakshiflavor/MENU';
         } catch (e) {
             alert('Network error placing order. Please check your connection.');
         }
     }
 
     function returnToMenu() {
-        window.location.href = 'menu.html';
+        window.location.href = 'https://github.com/sakshiflavor/MENU';
     }
 
     // Remember tower/flat per customer so they don't retype it
